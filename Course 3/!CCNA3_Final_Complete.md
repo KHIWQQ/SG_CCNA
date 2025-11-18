@@ -11,7 +11,7 @@
 Refer to the exhibit. What will router R1 do with a packet that has
 a destination IPv6 address of 2001:db8:cafe:5::1?
 
-![Refer to the exhibit. What will router R1 do with a packet that has adestination IPv6](image1.png)
+![](exam_images/image1.png)
 
 - [ ] forward the packet out GigabitEthernet0/0
 - [ ] drop the packet
@@ -33,7 +33,7 @@ learned from Branch2 to reach the 10.10.0.0/16 network. Which floating
 static route would create a backup route to the 10.10.0.0/16 network in
 the event that the link between R1 and Branch2 goes down?
 
-![](image2.png){width="6.5in" height="3.527083333333333in"}
+![](exam_images/image2.png)
 
 - [ ] ip route 10.10.0.0 255.255.0.0 Serial 0/0/0 100
 - [ ] ip route 10.10.0.0 255.255.0.0 209.165.200.226 100
@@ -56,7 +56,7 @@ users on network 172.16.0.0/16 are unable to reach resources on the
 Internet. How should this static route be changed to allow user traffic
 from the LAN to reach the Internet?
 
-![CCNA 2 v7 Switching Routing and WirelessEssentials-Version-Final-Answers-3](image3.jpeg)
+![](exam_images/image3.jpeg)
 
 
 CCNA 2 v7 Switching Routing and Wireless
@@ -102,7 +102,7 @@ route?
 Refer to the exhibit. Which static route command can be entered on
 R1 to forward traffic to the LAN connected to R2?
 
-![CCNA 2 v7 Switching Routing and WirelessEssentials-Version-Final-Answers-5](image4.png)
+![CCNA 2 v7 Switching Routing and WirelessEssentials-Version-Final-Answers-5](exam_images/image4.png)
 
 CCNA 2 v7 Switching Routing and Wireless
 Essentials-Version-Final-Answers-5

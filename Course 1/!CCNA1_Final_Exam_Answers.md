@@ -178,7 +178,7 @@ A – an end device IPv4 address NS – an authoritative name server AAAA – an
 
 **Refer to the exhibit. If Host1 were to transfer a file to the server, what layers of the TCP/IP model would be used?**
 
-![Question 13](question_img_1.jpeg)
+![Question 13](exam_images/question_img_1.jpeg)
 
 - [ ] only application and Internet layers
 - [ ] only Internet and network access layers
@@ -211,7 +211,7 @@ A – an end device IPv4 address NS – an authoritative name server AAAA – an
 
 **Refer to the exhibit. The IP address of which device interface should be used as the default gateway setting of host H1?**
 
-![Question 15](question_img_2.png)
+![Question 15](exam_images/question_img_2.png)
 
 - [ ] R1: S0/0/0
 - [ ] R2: S0/0/1
