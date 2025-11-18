@@ -7,7 +7,7 @@
 ### Question 1
 
 Refer to the exhibit. What will router R1 do with a packet that has a destination IPv6 address of 2001:db8:cafe:5::1?
-
+![](exam_images/)
 - [ ] forward the packet out GigabitEthernet0/0
 - [ ] drop the packet
 - [ ] forward the packet out GigabitEthernet0/1

@@ -163,7 +163,7 @@ Refer to the exhibit. A network administrator is configuring a
 router as a DHCPv6 server. The administrator issues a show ipv6 dhcp
 pool command to verify the configuration. Which statement explains the
 reason that the number of active clients is 0?\
-![](image5.jpeg)
+![](exam_images/image5.jpeg)
 
 - [ ] The default gateway address is not provided in the pool.
 - [ ] No clients have communicated with the DHCPv6 server yet.
@@ -202,7 +202,7 @@ routers to verify the HSRP operations. In addition, the administrator
 observed the ARP table on Host1. Which entry should be seen in the ARP
 table on Host1 in order to gain connectivity to the Internet?
 
-![](image6.png)
+![](exam_images/image6.png)
 
 - [x] the virtual IP address and the virtual MAC address for the HSRP
     > group 1
@@ -224,7 +224,7 @@ table on Host1 in order to gain connectivity to the Internet?
 Match the forwarding characteristic to its type. (Not all options
 are used.)
 
-![Match the forwarding characteristic to its type. (Not all options areused.)](image7.png)
+![Match the forwarding characteristic to its type. (Not all options areused.)](exam_images/image7.png)
 
 Match the forwarding characteristic to its type. (Not all options are
 used.)
@@ -283,7 +283,7 @@ switches are interconnected?
 ### Question 13
 Match the link state to the interface and protocol status. (Not
 all options are used.)
-![](image8.png)
+![](exam_images/image8.png)
 
   -----------------------------------------------------------------------
   Layer 1 problem                 down/down
@@ -298,7 +298,7 @@ all options are used.)
 14.Refer to the exhibit. How is a frame sent from PCA forwarded to PCC
 if the MAC address table on switch SW1 is empty?
 
-![](image9.png)
+![](exam_images/image9.png)
 
 - [ ] SW1 forwards the frame directly to SW2. SW2 floods the frame to all
     > ports connected to SW2, excluding the port through which the frame
@@ -351,7 +351,7 @@ Why were these VLANs not removed?
 Match the description to the correct VLAN type. (Not all options
 are used.)
 
-![](image10.png)
+![](exam_images/image10.png)
 
   -----------------------------------------------------------------------
   Native VLAN     Carries untagged traffic
@@ -387,7 +387,7 @@ SSH, or SNMP.
 Refer to the exhibit. A network administrator has connected two
 switches together using EtherChannel technology. If STP is running, what
 will be the end result?\
-![](image11.png)
+![](exam_images/image11.png)
 
 - [x] STP will block one of the redundant links.
 - [ ] The switches will load balance and utilize both EtherChannels to
@@ -466,7 +466,7 @@ Refer to the exhibit. Host A has sent a packet to host B. What
 will be the source MAC and IP addresses on the packet when it arrives at
 host B?
 
-![CCNA 2 v7 Switching Routing and WirelessEssentials-Version-Final-Answers-21](image12.jpeg)
+![](exam_images/image12.jpeg)
 
 CCNA 2 v7 Switching Routing and Wireless
 Essentials-Version-Final-Answers-21
@@ -501,7 +501,7 @@ ip route 0.0.0.0 0.0.0.0 serial 0/1/1
 
 What is the purpose of this command?
 
-![CCNA 2 v7 Switching Routing and WirelessEssentials-Version-Final-Answers-23](image13.png)
+![](exam_images/image13.png)
 
 CCNA 2 v7 Switching Routing and Wireless
 Essentials-Version-Final-Answers-23
@@ -550,7 +550,7 @@ Layer 2 loops?
 Refer to the exhibit. Based on the exhibited configuration and
 output, why is VLAN 99 missing?
 
-![CCNA 2 v7 Switching Routing and WirelessEssentials-Version-Final-Answers-25](image14.png)
+![](exam_images/image14.png)
 
 CCNA 2 v7 Switching Routing and Wireless
 Essentials-Version-Final-Answers-25
@@ -644,7 +644,7 @@ switches with the same default priority and operating at the same
 bandwidth. Which three ports will be STP designated ports? (Choose
 three.)
 
-![CCNA 2 v7 Switching Routing and WirelessEssentials-Version-Final-Answers-29](image15.png)
+![](exam_images/image15.png)
 
 CCNA 2 v7 Switching Routing and Wireless
 Essentials-Version-Final-Answers-29
@@ -713,7 +713,7 @@ static routes on a router? (Choose two.)
 Refer to the exhibit. Which route was configured as a static route
 to a specific network using the next-hop address?
 
-![](image16.png)
+![](exam_images/image16.png)
 
 - [x] S 10.17.2.0/24 \[1/0\] via 10.16.2.2
 - [ ] S 0.0.0.0/0 \[1/0\] via 10.16.2.2
@@ -924,7 +924,7 @@ remove the static route from the routing table?
 Refer to the exhibit. What can be concluded about the
 configuration shown on R1?
 
-![](image17.png)
+![](exam_images/image17.png)
 
 - [x] R1 is configured as a DHCPv4 relay agent.
 - [ ] R1 is operating as a DHCPv4 server.
@@ -944,7 +944,7 @@ configuration shown on R1?
 ### Question 43
 Match the step to each switch boot sequence description. (Not all
 options are used.)\
-![](image18.jpeg)
+![](exam_images/image18.jpeg)
 
 Explanation: The steps are:\
 1. execute POST\
@@ -966,7 +966,7 @@ Explanation: The steps are:\
 Refer to the exhibit. R1 has been configured as shown. However,
 PC1 is not able to receive an IPv4 address. What is the problem?​
 
-![](image19.png)
+![](exam_images/image19.png)
 
 - [x] The ip helper-address command was applied on the wrong
     > interface.
@@ -988,7 +988,7 @@ PC1 is not able to receive an IPv4 address. What is the problem?​
 ### Question 45
 What two default wireless router settings can affect network
 security? (Choose two.)\
-![](image20.png)
+![](exam_images/image20.png)
 
 - [x] The SSID is broadcast.
 - [ ] MAC address filtering is enabled.
@@ -1164,8 +1164,8 @@ floating static route command ip route 0.0.0.0 0.0.0.0 S0/0/1 100 was
 issued on R1 and now traffic is using the backup link even when the OSPF
 link is up and functioning. Which change should be made to the static
 route command so that traffic will only use the OSPF link when it is
-up?​\
-![CCNA3 Pretest Exam 002](image21.gif)
+up?​
+![CCNA3 Pretest Exam 002](exam_images/image21.gif)
 
 - [x] Change the administrative distance to 120.
 - [ ] Add the next hop neighbor address of 192.168.0.36.
@@ -1189,7 +1189,7 @@ router will only use the OSPF link when it is up.
 ### Question 54
 Refer to the exhibit. What is the metric to forward a data packet
 with the IPv6 destination address 2001:DB8:ACAD:E:240:BFF:FED4:9DD2?
-![](image22.png)
+![](exam_images/image22.png)
 
 - [ ] 90
 - [ ] 128
@@ -1246,7 +1246,7 @@ management.
 ### Question 56
 Refer to the exhibit. Which statement shown in the output allows
 router R1 to respond to stateless DHCPv6 requests?\
-![CCNA-2-v7-exam-answers-56](image23.png)
+![CCNA-2-v7-exam-answers-56](exam_images/image23.png)
 
 - [x] ipv6 nd other-config-flag​
 - [ ] prefix-delegation 2001:DB8:8::/48 00030001000E84244E70​
@@ -1272,7 +1272,7 @@ Refer to the exhibit. A Layer 3 switch routes for three VLANs and
 connects to a router for Internet connectivity. Which two configurations
 would be applied to the switch? (Choose two.)
 
-![CCNA-2-v7-exam-answers-57](image24.png)
+![CCNA-2-v7-exam-answers-57](exam_images/image24.png)
 
 CCNA-2-v7-exam-answers-57
 
@@ -1380,7 +1380,7 @@ enter. The destination address is used to select the outgoing port.
 Refer to the exhibit. A network administrator is reviewing the
 configuration of switch S1. Which protocol has been implemented to group
 multiple physical ports into one logical link?\
-![](image25.png)
+![](exam_images/image25.png)
 - [x] PAgP
 - [ ] DTP
 - [ ] LACP
@@ -1449,7 +1449,7 @@ the IP address 172.16.2.254. The serial interface on R1 has the address
 172.16.3.1 and is connected to the serial interface on R2 that has the
 address 172.16.3.2/24. R2 is connected to the internet cloud. Which
 command will create a static route on R2 in order to reach PC B?\
-![](image26.jpeg)
+![](exam_images/image26.jpeg)
 
 - [ ] R2(config)# ip route 172.16.2.1 255.255.255.0 172.16.3.1
 - [ ] R2(config)# ip route 172.16.2.0 255.255.255.0 172.16.2.254
@@ -1496,7 +1496,7 @@ switch links?
 Refer to the exhibit. Which three hosts will receive ARP requests
 from host A, assuming that port Fa0/4 on both switches is configured to
 carry traffic for multiple VLANs? (Choose three.)\
-![](image27.jpeg)
+![](exam_images/image27.jpeg)
 
 - [ ] host B
 - [x] host C
@@ -1527,7 +1527,7 @@ Refer to the exhibit. The network administrator configures both
 switches as displayed. However, host C is unable to ping host D and host
 E is unable to ping host F. What action should the administrator take to
 enable this communication?\
-![](image28.png)
+![](exam_images/image28.png)
 
 - [ ] Associate hosts A and B with VLAN 10 instead of VLAN 1.
 - [x] Configure either trunk port in the dynamic desirable mode.
@@ -1681,7 +1681,7 @@ switch. Which two items of information will this command display?
 ### Question 74
 Refer to the exhibit. Which trunk link will not forward any
 traffic after the root bridge election process is complete?\
-![](image29.jpeg)
+![](exam_images/image29.jpeg)
 
 - [ ] Trunk1
 - [x] Trunk2
@@ -1819,7 +1819,7 @@ Refer to the exhibit. After attempting to enter the configuration
 that is shown in router RTA, an administrator receives an error and
 users on VLAN 20 report that they are unable to reach users on VLAN 30.
 What is causing the problem?
-![](image30.jpeg)
+![](exam_images/image30.jpeg)
 
 - [ ] There is no address on Fa0/0 to use as a default gateway.
 - [x] RTA is using the same subnet for VLAN 20 and VLAN 30.
@@ -1927,7 +1927,7 @@ do office users need in order to connect their laptops to the WLAN?
 ### Question 86
 Refer to the exhibit. What are the possible port roles for ports
 A, B, C, and D in this RSTP-enabled network?\
-![](image31.png)
+![](exam_images/image31.png)
 
 - [x] alternate, designated, root, root
 - [ ] designated, alternate, root, root
@@ -1947,7 +1947,7 @@ A, B, C, and D in this RSTP-enabled network?\
 Refer to the exhibit. Which static route would an IT technician
 enter to create a backup route to the 172.16.1.0 network that is only
 used if the primary RIP learned route fails?\
-![](image32.png)
+![](exam_images/image32.png)
 
 - [ ] ip route 172.16.1.0 255.255.255.0 s0/0/0
 - [x] ip route 172.16.1.0 255.255.255.0 s0/0/0 121
@@ -2032,7 +2032,7 @@ that is offered by a DHCP server?
 Refer to the exhibit. Which destination MAC address is used when
 frames are sent from the workstation to the default gateway?
 
-![](image33.png)
+![](exam_images/image33.png)
 
 - [x] MAC address of the virtual router
 - [ ] MAC address of the standby router
@@ -2077,8 +2077,8 @@ therefore usable?
 
 ### Question 93
 Match the purpose with its DHCP message type. (Not all options are
-used.)\
-![](image34.jpeg)
+used.)
+![](exam_images/image34.jpeg)
 
   -----------------------------------------------------------------------
   a message that is used to locate any available DHCP    DHCPDISCOVER
@@ -2124,7 +2124,7 @@ Refer to the exhibit. A network administrator is verifying the
 configuration of inter-VLAN routing. Users complain that PC2 cannot
 communicate with PC1. Based on the output, what is the possible cause of
 the problem?\
-![](image35.png)
+![](exam_images/image35.png)
 
 - [ ] Gi0/0 is not configured as a trunk port.
 - [ ] The command interface GigabitEthernet0/0.5 was entered incorrectly.
@@ -2146,7 +2146,7 @@ Refer to the exhibit. A network administrator is configuring
 inter-VLAN routing on a network. For now, only one VLAN is being used,
 but more will be added soon. What is the missing parameter that is shown
 as the highlighted question mark in the graphic?\
-![](image36.png)
+![](exam_images/image36.png)
 
 - [ ] It identifies the subinterface.
 - [x] It identifies the VLAN number.
@@ -2167,8 +2167,7 @@ as the highlighted question mark in the graphic?\
 Match each DHCP message type with its description. (Not all
 options are used.)
 
-![](image37.jpeg){width="6.5in"
-height="4.801388888888889in"}
+![](exam_images/image37.jpeg)
 
 CCNA 2 v7 Modules 1 -- 4: Switching Concepts, VLANs, and InterVLAN
 Routing Exam Answers
@@ -2213,7 +2212,7 @@ Refer to the exhibit. If the IP addresses of the default gateway
 router and the DNS server are correct, what is the configuration
 problem?
 
-![](image38.png)
+![](exam_images/image38.png)
 
 - [ ] The DNS server and the default gateway router should be in the same
     > subnet.
@@ -2241,7 +2240,7 @@ addresses from the DHCPv4 server.\
 What two commands will allow hosts on the new subnet to receive
 addresses from the DHCP4 server? (Choose two.)
 
-![](image39.jpeg)
+![](exam_images/image39.jpeg)
 
 - [x] R1(config-if)# ip helper-address 10.2.0.250
 - [ ] R1(config)# interface G0/1
@@ -2400,8 +2399,8 @@ three.)
 
 ### Question 108
 Match the DHCP message types to the order of the DHCPv4 process.
-(Not all options are used.)\
-![](image40.png)
+(Not all options are used.)
+![](exam_images/image40.png)
 
   -----------------------------------------------------------------------
   Step 1                 DHCPDISCOVER
@@ -2500,7 +2499,7 @@ the port security feature on switch SWC. The administrator issued the
 command show port-security interface fa 0/2 to verify the configuration.
 What can be concluded from the output that is shown? (Choose three.)
 
-![Switching, Routing, and Wireless Essentials ( Version 7.00) - SRWEFinal Exam](image41.jpeg)
+![](exam_images/image41.jpeg)
 
 Switching, Routing, and Wireless Essentials ( Version 7.00) -- SRWE
 Final Exam
@@ -2569,7 +2568,7 @@ of attack?
 ### Question 115
 Refer to the exhibit. Which two conclusions can be drawn from the
 output? (Choose two.)
-![](image42.jpeg)
+![](exam_images/image42.jpeg)
 
 - [x] The EtherChannel is down.
 - [x] The port channel ID is 2.
@@ -2591,7 +2590,7 @@ output? (Choose two.)
 ### Question 116
 Match the step number to the sequence of stages that occur during
 the HSRP failover process. (Not all options are used.)\
-![](image43.jpeg)
+![](exam_images/image43.jpeg)
 
   -----------------------------------------------------------------------
   Step 1  The forwarding router fails.
@@ -2639,7 +2638,7 @@ Refer to the exhibit. A network engineer is configuring IPv6
 routing on the network. Which command issued on router HQ will configure
 a default route to the Internet to forward packets to an IPv6
 destination network that is not listed in the routing table?​\
-![](image44.jpeg)
+![](exam_images/image44.jpeg)
 
 - [ ] ipv6 route ::/0 serial 0/0/0
 - [ ] ip route 0.0.0.0 0.0.0.0 serial 0/1/1
@@ -2837,7 +2836,7 @@ Refer to the exhibit. A network administrator configures R1 for
 inter-VLAN routing between VLAN 10 and VLAN 20. However, the devices in
 VLAN 10 and VLAN 20 cannot communicate. Based on the configuration in
 the exhibit, what is a possible cause for the problem?\
-![](image45.jpeg)
+![](exam_images/image45.jpeg)
 
 - [ ] A. The port Gi0/0 should be configured as trunk port.
 - [x] B. The encapsulation is misconfigured on a subinterface.
@@ -2903,7 +2902,7 @@ Refer to the exhibit. A network administrator is configuring the
 router R1 for IPv6 address assignment. Based on the partial
 configuration, which IPv6 global unicast address assignment scheme does
 the administrator intend to implement?\
-![](image46.png)
+![](exam_images/image46.png)
 
 - [x] stateful
 - [ ] stateless
@@ -2977,7 +2976,7 @@ performed to configure VTP on the new switch to meet these conditions?
 Refer to the exhibit. Consider that the main power has just been
 restored. PC3 issues a broadcast IPv4 DHCP request. To which port will
 SW1 forward this request?​\
-![](image47.png)
+![](exam_images/image47.png)
 
 - [x] to Fa0/1, Fa0/2, and Fa0/3 only
 - [ ] to Fa0/1, Fa0/2, Fa0/3, and Fa0/4
@@ -3188,7 +3187,7 @@ administrator use multiple lightweight APs?
 ### Question 141
 Refer to the exhibit. PC-A and PC-B are both in VLAN 60. PC-A is
 unable to communicate with PC-B. What is the problem?\
-![](image48.png)
+![](exam_images/image48.png)
 
 - [ ] The native VLAN should be VLAN 60.
 - [ ] The native VLAN is being pruned from the link.
@@ -3298,7 +3297,7 @@ router R2. After the static route command is entered, connectivity to
 the network is still failing. What error has been made in the static
 route configuration?
 
-![](image49.jpeg)
+![](exam_images/image49.jpeg)
 
 - [ ] The next hop address is incorrect.
 - [x] The interface is incorrect.
