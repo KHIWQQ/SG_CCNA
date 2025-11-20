@@ -1,0 +1,32 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# Backup Files
+*.bak
+*.tmp
+*~
+
+# Log Files
+*.log
+
+# Node modules (if using any markdown tools)
+node_modules/
+
+# Python cache (if using any Python scripts)
+__pycache__/
+*.pyc
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
